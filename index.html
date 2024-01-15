@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>SML - Это возможности!</title>
+    <center><a href="/"><img class="logo" src="msl.png"></a></center>
+</head>
+<body>
+  <br>
+  <br>
+  <br>
+    <div class="section">
+        <h1 class="p">ТОЛЬКО ВЫЖИВАНИЕ!</h1>
+        <br>
+        <img src="staddle1.png" alt="Фото 1">
+        <br>
+        <p class="p">Никакого креатива! Потому что в выживании иссдовать мир интереснее!</p>
+    </div>
+    
+    <br>
+    <br>
+    <br>
+    
+    <div class="section">
+        <h1 class="p">Удобные способы общения!</h1>
+        <img src="talking.png" alt="Фото 2">
+        <p class="p">На сервере есть моды: PlasmaVoice, EmoteCraft которые позволят вам удобно и реалистично общатся с другими игроками! </p>
+    </div>
+    
+    <br>
+    <br>
+    <br>
+    
+    <div class="section">
+        <h1 class="p">ЛИЦЕНЗИОННЫЙ СЕРВЕР</h1>
+        <img src="nopiracy.png" alt="Фото 3">
+        <p class="p">ВЫ МОЖЕТЕ ЗАЙТИ НА СЕРВЕР ТОЛЬКО ЕСЛИ У ВАС ЕСТЬ ЛИЦЕНЗИЯ! ЭТО СНИЖАЕТ РИСК ПОЯВЛЕНИЯ ЧИТЕРОВ.</p>
+    </div>
+    <br>
+    <br>
+    <br>
+    <center><a href="https://discord.com/invite/DVYD3FJc3g"><button>Наш Discord Сервер</button></a></center>
+    
+    <style>
+      .section {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.logo {
+  position: relative;
+  width: 132px; /* Замените на нужную вам ширину */
+  height: 60px; /* Замените на нужную вам высоту */
+  overflow: hidden;
+}
+
+.logo {
+  transition: transform 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.2);
+}
+
+
+@font-face {
+    font-family: "Minecraft Ten";
+    src: url("https://db.onlinewebfonts.com/t/a7fcb1becc12274d5b761b1d895f8aa9.eot");
+    src: url("https://db.onlinewebfonts.com/t/a7fcb1becc12274d5b761b1d895f8aa9.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/a7fcb1becc12274d5b761b1d895f8aa9.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/a7fcb1becc12274d5b761b1d895f8aa9.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/a7fcb1becc12274d5b761b1d895f8aa9.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/a7fcb1becc12274d5b761b1d895f8aa9.svg#Minecraft Ten")format("svg");
+}
+
+body {
+  font-family: "Minecraft Ten", "Arial", sans-serif;
+}
+
+
+button {
+  font-size: 18px;
+  background-color: #3b83bd;
+  color: #fff;
+  text-shadow: 0 2px 0 rgb(0 0 0 / 25%);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border: 0;
+  z-index: 1;
+  user-select: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  white-space: unset;
+  padding: 0.8rem 1.5rem;
+  text-decoration: none;
+  font-weight: 900;
+  transition: all 0.7s cubic-bezier(0, 0.8, 0.26, 0.99);
+}
+
+button:before {
+  position: absolute;
+  pointer-events: none;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  content: "";
+  transition: 0.7s cubic-bezier(0, 0.8, 0.26, 0.99);
+  z-index: -1;
+  background-color: #3b83bd !important;
+  box-shadow: 0 -4px rgb(30 144 255 / 50%) inset,
+    0 4px rgb(30 144 255/ 99%) inset, -4px 0 rgb(30 144 255/ 50%) inset,
+    4px 0 rgb(30 144 255 / 50%) inset;
+}
+
+button:after {
+  position: absolute;
+  pointer-events: none;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  content: "";
+  box-shadow: 0 4px 0 0 rgb(0 0 0 / 15%);
+  transition: 0.7s cubic-bezier(0, 0.8, 0.26, 0.99);
+}
+
+button:hover:before {
+  box-shadow: 0 -4px rgb(0 0 0 / 50%) inset, 0 4px rgb(255 255 255 / 20%) inset,
+    -4px 0 rgb(255 255 255 / 20%) inset, 4px 0 rgb(0 0 0 / 50%) inset;
+}
+
+button:hover:after {
+  box-shadow: 0 4px 0 0 rgb(0 0 0 / 15%);
+}
+
+button:active {
+  transform: translateY(4px);
+}
+
+button:active:after {
+  box-shadow: 0 0px 0 0 rgb(0 0 0 / 15%);
+}
+
+
+html {
+  background-image: url(bg.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.p {
+  color: green;
+}
+
+    </style>
+</body>
+</html>
